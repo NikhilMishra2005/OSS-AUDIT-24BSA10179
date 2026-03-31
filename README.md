@@ -1,4 +1,4 @@
-# 📘 The Open Source Audit — MySQL  
+# The Open Source Audit — MySQL  
 
 ![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)
 ![Bash](https://img.shields.io/badge/Script-Bash-green)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview  
+##  Project Overview  
 This repository contains a comprehensive **Open Source Software Audit of MySQL**, developed as a capstone project for the *Open Source Software (OSS)* course.
 
 The project explores **MySQL** as:
@@ -21,7 +21,7 @@ It also includes **5 practical Linux shell scripts** demonstrating real-world sy
 
 ---
 
-## 🎯 Objectives  
+##  Objectives  
 - Understand the evolution of MySQL  
 - Analyze **GNU GPL v2 licensing**  
 - Explore Linux system integration  
@@ -31,30 +31,30 @@ It also includes **5 practical Linux shell scripts** demonstrating real-world sy
 
 ---
 
-## 🧠 Key Concepts Covered  
+##  Key Concepts Covered  
 
-### 🔹 Open Source Philosophy  
+###  Open Source Philosophy  
 - Freedom to use, modify, and distribute  
 - Community vs corporate control  
 - Ethics in software  
 
-### 🔹 Licensing  
+###  Licensing  
 - GPL v2 (Copyleft)  
 - Dual licensing model  
 
-### 🔹 Linux Integration  
+###  Linux Integration  
 - Package management (APT/DNF)  
 - System services (`systemctl`)  
 - File structure & permissions  
 
-### 🔹 Ecosystem  
+### Ecosystem  
 - LAMP Stack  
 - WordPress, Drupal, Joomla  
 - Forks: MariaDB, Percona  
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure  
 
 ```bash
 📦 Open-Source-Audit-MySQL
@@ -70,40 +70,40 @@ It also includes **5 practical Linux shell scripts** demonstrating real-world sy
 
 ---
 
-## ⚙️ Shell Scripts  
+##  Shell Scripts  
 
-### 1️⃣ System Identity Report  
+###  System Identity Report  
 Displays system details including MySQL version  
 
-### 2️⃣ FOSS Package Inspector  
+###  FOSS Package Inspector  
 Checks installation & prints open-source philosophy  
 
-### 3️⃣ Disk and Permission Auditor  
+###  Disk and Permission Auditor  
 Audits directories and MySQL data  
 
-### 4️⃣ Log File Analyzer  
+###  Log File Analyzer  
 Analyzes logs for errors or keywords  
 
-### 5️⃣ Open Source Manifesto Generator  
+###  Open Source Manifesto Generator  
 Creates a personalized open-source statement  
 
 ---
 
-## 🚀 Getting Started  
+##  Getting Started  
 
-### 🔧 Prerequisites  
+###  Prerequisites  
 - Linux (Ubuntu/Debian recommended)  
 - Bash shell  
 - MySQL installed  
 
-### 📥 Install MySQL  
+###  Install MySQL  
 
 ```bash
 sudo apt update
 sudo apt install mysql-server -y
 ```
 
-### ▶️ Run Scripts  
+###  Run Scripts  
 
 ```bash
 chmod +x script_name.sh
@@ -117,7 +117,7 @@ Example:
 
 ---
 
-## 🔐 Security Best Practices  
+##  Security Best Practices  
 - Use dedicated `mysql` user  
 - Restrict permissions on `/var/lib/mysql`  
 - Avoid root usage in applications  
@@ -128,7 +128,7 @@ sudo mysql_secure_installation
 
 ---
 
-## 📊 Open Source vs Proprietary  
+##  Open Source vs Proprietary  
 
 | Feature | MySQL | Oracle DB |
 |--------|------|----------|
@@ -139,7 +139,7 @@ sudo mysql_secure_installation
 
 ---
 
-## 🌍 Real-World Impact  
+##  Real-World Impact  
 - Powers millions of websites  
 - Core of LAMP stack  
 - Backbone of CMS platforms  
@@ -147,7 +147,7 @@ sudo mysql_secure_installation
 
 ---
 
-## 🤝 Contribution  
+##  Contribution  
 Contributions are welcome!  
 - Improve scripts  
 - Add documentation  
@@ -155,27 +155,27 @@ Contributions are welcome!
 
 ---
 
-## 📜 License  
+##  License  
 Licensed under **GNU General Public License v2 (GPL v2)**  
 
 ---
 
-## 👨‍💻 Author  
+##  Author  
 
 **Nikhil Kumar Mishra**  
 Reg No: 24BSA10179  
 
 ---
 
-## ⭐ Support  
+##  Support  
 If you found this project useful:  
-⭐ Star this repository  
-🍴 Fork it  
-📢 Share with others  
+ Star this repository  
+ Fork it  
+ Share with others  
 
 ---
 
-## 🏁 Conclusion  
+##  Conclusion  
 This project demonstrates that **MySQL is not just software**, but a foundation of:
 - Open innovation  
 - Community collaboration  
