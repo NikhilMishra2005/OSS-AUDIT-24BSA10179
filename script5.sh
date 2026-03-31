@@ -20,3 +20,23 @@ OUTPUT="manifesto_$(whoami).txt"
 echo "Open Source Manifesto — $DATE" > "$OUTPUT"
 echo "-------------------------------------------" >> "$OUTPUT"
 echo "" >> "$OUTPUT"
+echo "Every day I rely on $TOOL — a tool built openly and shared freely." >>
+"$OUTPUT"
+echo "To me, freedom means $FREEDOM — and that is what open source represents."
+>> "$OUTPUT"
+echo "It is the right to learn from and build upon the work of those who came
+before." >> "$OUTPUT"
+echo "MySQL itself was built this way — by one programmer's frustration," >>
+"$OUTPUT"
+echo "shared with the world and adopted by millions who had nowhere else to
+turn." >> "$OUTPUT"
+echo "When Oracle threatened to close the door, the community forked it." >>
+"$OUTPUT"
+echo "One day I will build $BUILD and release it openly," >> "$OUTPUT"
+echo "so someone I will never meet can stand on my shoulders, as I stood on
+others." >> "$OUTPUT"
+echo "That is the open source promise. That is my commitment." >> "$OUTPUT"
+echo ""
+echo "Manifesto saved to: $OUTPUT"
+echo ""
+cat "$OUTPUT"
